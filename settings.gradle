@@ -4,4 +4,5 @@ include 'abstract-factory'
 include 'builder'
 include 'singleton'
 include 'mediator'
+include 'Observer'
 
