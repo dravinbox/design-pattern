@@ -5,4 +5,5 @@ include 'builder'
 include 'singleton'
 include 'mediator'
 include 'Observer'
+include 'proxy'
 
