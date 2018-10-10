@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.rrg.abfactory.product.color.Blue</OriginalElement>
+  <nodes>
+    <node x="357.0" y="355.0">com.rrg.abfactory.product.color.Blue</node>
+    <node x="126.0" y="69.0">com.rrg.abfactory.product.shape.Square</node>
+    <node x="0.0" y="143.0">com.rrg.abfactory.factory.AbstractFactory</node>
+    <node x="379.0" y="69.0">com.rrg.abfactory.product.shape.Rectangle</node>
+    <node x="272.0" y="429.0">com.rrg.abfactory.FactoryProducer</node>
+    <node x="187.0" y="212.0">com.rrg.abfactory.factory.ColorFactory</node>
+    <node x="121.0" y="355.0">com.rrg.abfactory.product.color.Red</node>
+    <node x="232.0" y="355.0">com.rrg.abfactory.product.color.Green</node>
+    <node x="0.0" y="429.0">com.rrg.abfactory.AbstractFactoryPatternDemo</node>
+    <node x="354.0" y="212.0">com.rrg.abfactory.factory.ShapeFactory</node>
+    <node x="0.0" y="286.0">com.rrg.abfactory.product.color.Color</node>
+    <node x="257.0" y="69.0">com.rrg.abfactory.product.shape.Circle</node>
+    <node x="0.0" y="0.0">com.rrg.abfactory.product.shape.Shape</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.rrg.abfactory.product.shape.Square" target="com.rrg.abfactory.product.shape.Shape">
+      <point x="0.0" y="0.0" />
+      <point x="171.5" y="14.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.rrg.abfactory.product.color.Red" target="com.rrg.abfactory.product.color.Color">
+      <point x="0.0" y="0.0" />
+      <point x="156.5" y="300.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.rrg.abfactory.factory.ColorFactory" target="com.rrg.abfactory.factory.AbstractFactory">
+      <point x="0.0" y="0.0" />
+      <point x="250.5" y="157.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.rrg.abfactory.product.shape.Circle" target="com.rrg.abfactory.product.shape.Shape">
+      <point x="0.0" y="0.0" />
+      <point x="298.0" y="14.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.rrg.abfactory.product.shape.Rectangle" target="com.rrg.abfactory.product.shape.Shape">
+      <point x="0.0" y="0.0" />
+      <point x="433.0" y="14.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.rrg.abfactory.product.color.Blue" target="com.rrg.abfactory.product.color.Color">
+      <point x="0.0" y="0.0" />
+      <point x="394.5" y="300.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.rrg.abfactory.product.color.Green" target="com.rrg.abfactory.product.color.Color">
+      <point x="0.0" y="0.0" />
+      <point x="274.5" y="300.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.rrg.abfactory.factory.ShapeFactory" target="com.rrg.abfactory.factory.AbstractFactory">
+      <point x="0.0" y="0.0" />
+      <point x="420.0" y="157.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.4257659912109375" x="310.365543295626" y="219.16968289472277" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
